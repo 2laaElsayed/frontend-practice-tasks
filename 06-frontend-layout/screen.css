@@ -1,0 +1,39 @@
+@media  (min-width: 768px)
+{
+    .container{
+        width:750px;
+    }
+}
+@media  (min-width: 992px)
+{
+    .container{
+        width:970px;
+    }
+}
+@media  (min-width: 1200px)
+{
+    .container{
+        width:1170px;
+    }
+}
+@media  (max-width: 767px)
+{
+    header nav ul{
+        display: none;
+    }
+    .landing .text{
+        width: 100%;
+    }
+    .main p{
+        width: 100%;
+    }
+}
+@media  (min-width:767px)
+{
+    .footer-sec{
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+}
+
+
+
