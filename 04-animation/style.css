@@ -1,0 +1,24 @@
+img {
+    width: 150px;
+ animation: alaa 10s linear infinite;
+}
+audio{
+    text-align: center;
+}
+@keyframes alaa {
+    0% {
+        transform: translateX(0) scaleX(1); 
+    }
+    49% {
+        transform: translateX(calc(100vw - 100px)) scaleX(1); 
+    }
+    50% {
+        transform: translateX(calc(100vw - 100px)) scaleX(-1);
+    }
+    99% {
+        transform: translateX(0) scaleX(-1);
+    }
+    100% {
+        transform: translateX(0) scaleX(1); 
+    }
+}
