@@ -8,9 +8,9 @@ This repo tracks my progress while learning frontend development and includes bo
 
 ## 🚀 Live Demos (Hosted on Netlify)
 
-| Project Folder                | Live Demo Link                               |
+| Project Folder                | Live Demo Link                              |
 |------------------------------|----------------------------------------------|
-| 01-float-layout              | 🎥 See video below 👇🏻                         |
+| 01-float-layout              | 🎥 See video below 👇🏻                       |
 | 02-flexbox-layout            | [Live](https://alo2a1.netlify.app/)          |
 | 03-grid-layout               | [Live](https://alo2a3.netlify.app/)          |
 | 04-animation                 | [Live](https://alaaanimation.netlify.app/)   |
@@ -19,7 +19,7 @@ This repo tracks my progress while learning frontend development and includes bo
 | 07-frontend-layout           | [Live](https://alo2a4.netlify.app/)          |
 | Landing Page - Bootstrap     | [Live](https://bootstrapalaa.netlify.app/)   |
 | Product System - JavaScript  | [Live](https://alaaproduct.netlify.app/)     |
-| API Practice                 | 🖼 See screenshot below 👇🏻                    |
+| API Practice                 | 🖼 See screenshot below 👇🏻                   |
 | JQ Practice                  | [Live](https://alaajq.netlify.app/)          |
 
 
@@ -28,7 +28,7 @@ This repo tracks my progress while learning frontend development and includes bo
 
 ## 📁 Folder Overview
 
-| Folder Name                   | Description                                                  |
+| Folder Name                   | Description                                                 |
 |------------------------------|--------------------------------------------------------------|
 | `01-float-layout`            | Layouts using the old-school float technique                 |
 | `02-flexbox-layout`          | Responsive layouts using Flexbox                             |
@@ -49,11 +49,14 @@ It serves as both a reference for myself and a portfolio of what I’ve built st
 
 ---
 
-## ✅ To-Do
+### 🎥 Float Layout
 
-- [ ] Add screenshots or GIFs for visual previews
-- [ ] Add working Netlify links
-- [ ] Refactor some folders for naming consistency
+<video src="/assets/float.mp4" controls width="500"></video>
+
+---
+### 🖼 API Practice Preview
+
+![API Screenshot](/assets/api.png)
 
 ---
 
