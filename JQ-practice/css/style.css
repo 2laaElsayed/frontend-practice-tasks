@@ -1,0 +1,165 @@
+ body {
+            font-family: 'Tajawal', sans-serif;
+            background: linear-gradient(135deg, #f5f5dc, #f8e8d8);
+            height: 100vh;
+            overflow: hidden;
+            color: #5a3921;
+            transition: background 0.5s;
+        }
+        
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            animation: fadeIn 2s;
+        }
+        
+        .header h1 {
+            font-weight: 700;
+            color: #c52d2d;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sheep-container {
+            position: relative;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .sheep {
+            font-size: 8rem;
+            transition: all 0.5s;
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .message {
+            align-content: start;
+            background: linear-gradient(45deg, #fff9e6, #ffffff);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 30px auto;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s ease-out;
+            border: 2px solid #e0a800;
+            position: relative;
+            overflow: hidden;
+            display: none;
+        }
+        
+        .message.show {
+            opacity: 1;
+            transform: translateY(0);
+            display: block;
+        }
+        
+        .message h2 {
+            color: #c52d2d;
+            margin-bottom: 15px;
+        }
+        
+        .message p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        
+        .message::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: linear-gradient(90deg, #e0a800, #c52d2d, #e0a800);
+        }
+        
+        .decoration {
+            position: absolute;
+            opacity: 0.1;
+            z-index: -1;
+        }
+        
+        .decoration-1 {
+            top: 10%;
+            left: 10%;
+            font-size: 5rem;
+            transform: rotate(30deg);
+        }
+        
+        .decoration-2 {
+            bottom: 10%;
+            right: 10%;
+            font-size: 5rem;
+            transform: rotate(-20deg);
+        }
+        
+        .hearts {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+        
+        .heart {
+            position: absolute;
+            font-size: 1.5rem;
+            opacity: 0;
+            animation: float-up 4s linear forwards;
+        }
+        
+
+        
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+        
+        @keyframes float-up {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-500px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        
+        .pulse {
+            animation: pulse 1s infinite;
+        }
