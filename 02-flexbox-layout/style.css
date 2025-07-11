@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+    
+*{padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: "EB Garamond", serif;
+    font-size: 1rem;
+
+    }
+.navbar p{
+    color: brown;
+    font-size: 20px;
+    margin: 0;  
+    font-family: "EB Garamond", serif;
+    
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+    }
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 15px;
+}
+a:hover{
+    color: brown;
+}
+.page1{
+    height: 100vh;
+    background-image:url(photo/s&f.jpg);
+    background-position: center center;
+    background-size: cover;
+
+   }
+.layer{
+    width: 100%;
+    height: 40%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+.layer h1{
+  
+    font-family: "Bebas Neue", sans-serif;
+    color: brown;
+    font-size: 5rem;
+}
+.layer p {
+    font-family: "EB Garamond", serif;
+    
+    font-size: 2rem;
+}
+
+.clearfix{
+    clear: both;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: "EB Garamond", serif;
+
+}
+.p2 img{
+    box-shadow: -15px -15px 5px rgb(232, 116, 116) ;
+    height:auto;
+    width: 20%;
+    position: relative;
+
+}
+.p2 h1{
+    font-family: "EB Garamond", serif;
+
+}
+
+.page2 .text{
+    padding: 20px;
+    text-align: left;
+    width:50%;
+}
+
+.text p{
+    color: dimgrey;
+    font-size: small;
+}
+ .item{
+    list-style-type: none;
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-around;  
+ }
+ .item .h{
+    color: dimgrey;
+ }
+.text .but{
+    display: flex;
+    justify-content: space-around;
+}
+.but button{
+    font-size: 1.2rem;
+    border-color:white;
+    color: aliceblue;
+    background-color: rgb(232, 116, 116);
+   
+
+}
+button:hover {
+    background-color: rgb(197, 65, 87);
+ }
+
+ .our{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(232, 220, 220);
+ }
+ .our h1{
+    text-align: center;
+    position: relative;
+    top: 10px;
+ }
+ .it{
+  text-align: center;
+  }
+  .our .items{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .our p{
+    color: dimgrey;
+
+  }
+  .it img{
+    width: 5%;
+
+  }
+  .pr{
+    text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    .friends{
+        display: flex;
+        flex-direction: row; 
+    justify-content: space-evenly;
+    }
+    .fr img{
+       width: 80%;
+    }
+    .n{
+        width: 100%;
+        background-color:rgb(232, 220, 220);
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 50px 0;
+        
+    }
+    .n p{
+        color: dimgrey;
+
+    }
+    .nt{
+        width: 20%;
+        text-align: center;
+        padding: 20px;
+    }
+      
+    .nt img{
+        width: 11%;
+        height: auto;
+          }
+
+   .page3 h1{
+    text-align: center;
+
+   } 
+   .page3 p{
+    color: dimgrey;
+
+   }
+
+
+   .feed .f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    background-color:rgb(232, 220, 220);
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    
+   }
+   .feed img{
+    width: 20%;
+    height: 15%;
+    border-radius: 50%;
+    
+   }
+   .feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+.page4{
+    background-color:rgb(232, 220, 220);
+    padding-bottom: 5%;
+}
+.page4 h1{
+    text-align: center;
+}
+.page4 .blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.page4 .b{
+    background-color:white;
+    width: 20%;
+}
+
+.page4 .blog img{
+    width: 100%;
+}
+.page4 .b p{
+    width: 90%;
+    text-align: left;
+    
+}
+.page4 .b h4{
+    width: 90%;
+    text-align: left;
+   
+}
+.page5 h1{
+    text-align: center;
+}
+ .form1{
+    width: 50%;
+    margin: auto;
+ }
+.input1{
+    display: flex;
+    justify-content: flex-start;
+}
+.input2{
+    display: flex;
+    flex-direction: column;
+}
+.bu{
+    color: aliceblue;
+    width: 20%;
+    
+    background-color: brown; 
+}
+.last{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(3, 2, 2, 0.758);
+}
+
+
+
