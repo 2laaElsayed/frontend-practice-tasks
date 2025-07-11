@@ -8,22 +8,23 @@ This repo tracks my progress while learning frontend development and includes bo
 
 ## 🚀 Live Demos (Hosted on Netlify)
 
+| Project Folder                | Live Demo Link                               |
+|------------------------------|----------------------------------------------|
+| 01-float-layout              | 🎥 See video below 👇🏻                         |
+| 02-flexbox-layout            | [Live](https://alo2a1.netlify.app/)          |
+| 03-grid-layout               | [Live](https://alo2a3.netlify.app/)          |
+| 04-animation                 | [Live](https://alaaanimation.netlify.app/)   |
+| 05-frontend-layout           | [Live](https://alo2a5.netlify.app/)          |
+| 06-frontend-layout           | [Live](https://alo2a6.netlify.app/)          |
+| 07-frontend-layout           | [Live](https://alo2a4.netlify.app/)          |
+| Landing Page - Bootstrap     | [Live](https://bootstrapalaa.netlify.app/)   |
+| Product System - JavaScript  | [Live](https://alaaproduct.netlify.app/)     |
+| API Practice                 | 🖼 See screenshot below 👇🏻                    |
+| JQ Practice                  | [Live](https://alaajq.netlify.app/)          |
 
-| Project Folder                  | Live Demo Link                               |
-|--------------------------------|----------------------------------------------|
-| 01-float-layout                | video 👇🏻 |
-| 02-flexbox-layout              | [Live]([https://your-flexbox-layout.netlify.app](https://alo2a1.netlify.app/)) |
-| 03-grid-layout                 | [Live]([https://your-grid-layout.netlify.app](https://alo2a3.netlify.app/)) |
-| 04-animation                   | [Live]([https://your-animation.netlify.app](https://alaaanimation.netlify.app/)) |
-| 05-frontend-layout             | [Live]([https://your-layout-1.netlify.app](https://alo2a5.netlify.app/)) |
-| 06-frontend-layout             | [Live]([https://your-layout-2.netlify.app](https://alo2a6.netlify.app/)) |
-| 07-frontend-layout             | [Live]([https://your-layout-3.netlify.app](https://alo2a4.netlify.app/)) |
-| Landing Page - Bootstrap       | [Live](https://your-bootstrap-landing.netlify.app) |
-| Product System - JavaScript    | [Live]([https://your-product-system.netlify.app](https://alaaproduct.netlify.app/)) |
-| API Practice                   | [Live](https://your-api-practice.netlify.app) |
-| JQ Practice                    | [Live](https://your-jquery-practice.netlify.app) |
 
 ---
+
 
 ## 📁 Folder Overview
 
