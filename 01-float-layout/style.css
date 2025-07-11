@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+.home {
+    height: 100vh;
+    background-image: url("photo/bgcopy.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+ul{list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:none;
+    position: absolute;
+    right:0;
+    
+  }
+  li {
+    float: left;  
+  }
+  li a {
+    display: inline-block;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  .caption{
+  color:white;
+  Text-align:center ;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+
+  }
+  .welcome{
+    text-decoration: none;
+    padding: 20;
+    font-size: 20px;
+ }
+  .Family{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .we{
+padding: 20px;
+font-size: 20px;
+  }
+  button{
+    background-color: transparent;
+    color:white;
+   padding: 20px;
+    margin:20px;
+    border-color:white;
+    border-radius:10%;
+
+  }
+  button:hover {
+    background-color: brown;
+ }
+  .page2{
+    width: 25%;
+    float:left;
+  }
+  .img{
+    width: 100%;
+    border-radius: 10%;
+    position: relative;
+    top: 20px;
+    left: 40%;
+  }
+  .who{
+    width: 50%;
+    Text-align:center ;
+    position: relative;
+    top: 30px;
+    left:20%;
+  }
+  .who h1{
+    padding: 20px;
+  }
+  .who p{
+    color: dimgrey;
+  }
+  .tal{
+    padding: 20px;
+    width: 50%;
+    list-style-type: disc; 
+    padding-left: 20px; 
+    color: dimgrey;
+}
+  .tal li{
+    padding: 10px;
+  }
+  .clearfix{
+    clear:both;
+  }
+  .page3{
+    width: 25%;
+    float: right;
+  }
+  .ph3{
+    width: 100%;
+    border-radius: 10%;
+    position: relative;
+    top: 20px;
+    right: 20%;
+  }
+  .our{
+    width: 50%;
+    Text-align:center ;
+    position: relative;
+    top: 50px;
+    left:10%;
+  }
+  .our h1 {
+    width: 100%;
+    text-align: center;  
+    position: relative;
+    left:1%; 
+    
+}
+.have {
+  padding: 20px;
+  width: 80%; 
+  padding-left: 20px;
+  margin: 0 auto; 
+  color: dimgrey;
+}
+.baking {
+  text-align: center; 
+  position:relative;
+  top: 60px;
+}
+.baking h3{
+  padding: 10px;
+}
+.page5{
+  width:25%;
+  float:left;
+  text-align: center;
+  position: relative;
+  top:100px;
+  left:10%;
+}
+.page5 img{
+ width:75%;
+border-radius: 10%;
+}
+.page5 h4{
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.page5 p{
+  font-size: 15px;
+  color: dimgrey;
+}
+
+
+
