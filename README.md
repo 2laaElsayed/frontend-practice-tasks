@@ -51,7 +51,7 @@ It serves as both a reference for myself and a portfolio of what I’ve built st
 
 ### 🎥 Float Layout Demo
 
-[▶️ Watch Video on Loom](https://www.loom.com/share/cc07dfd64cce4e35b22160a1e513c05b?sid=ef867f12-c852-4975-b5d7-ae2a6c84be03)
+
 
 
 ---
