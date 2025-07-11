@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    font-family: "Noto Serif", serif;
+    color: white;
+    background-color: black;
+    overflow-x: hidden;
+     max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.home{
+    background-image: url(../photos/h1_hero1.jpg);
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.t-line h2{
+    position: relative;
+}
+.t-line h2::before{
+    content:"";
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    height: 2px;
+    width: 120px;
+    background:#ffc107;
+    transform: translateX(-50%);
+}
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.lol ul li a:hover{
+    color: #ffc107;
+    border-bottom: 1px solid #ffc107 ;
+}
+
