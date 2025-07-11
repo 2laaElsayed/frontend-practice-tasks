@@ -1,0 +1,177 @@
+@media (max-width: 768px) {
+    
+    .navbar {
+        justify-content: left;
+        padding: 10px 0;
+        background: var(--t);
+    }
+    
+    .links {
+        display: none;
+    }
+    
+    .logo-link h4 {
+        font-size: 28px;
+        padding: 10px 25px;
+    }
+    
+    .home-content h1.text {
+        font-size: 2rem;
+    }
+    
+    .btn {
+        flex-direction: row;
+        align-items: center;
+
+    }
+    
+    .btn button {
+    border-radius: 20px;
+    width: 80%;
+    }
+}
+@media (min-width: 769px) {
+    .section-container {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    
+    .navbar {
+        
+        width: 100%;
+        max-width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+    }
+    
+    .navbar .links ul {
+        text-transform: uppercase;
+        display: flex;
+        gap: 2rem; 
+        list-style: none;
+        
+    }
+    
+    .navbar .links a {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--bl);
+        position: relative;
+    }
+
+    
+    
+    .navbar .links a:hover:after {
+        width: 100%;
+    }
+    
+    .logo-link {
+        position: relative;
+        width: 48.5%; 
+        /* عندي مشكله هنا */
+        height: 100%;
+        background-color: var(--t);
+        display: flex;
+        align-items: center; 
+        padding-left: 30px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    .logo-link h4 {
+        font-size: 30px;
+        color: white;
+        margin: 0;
+        z-index: 2;
+        position: relative;
+    }
+    
+    .logo-over {
+        position: absolute;
+        inset: 0;
+        background-color: var(--t);
+        z-index: 1;
+        border-bottom-right-radius: 50px;
+    }
+    
+    
+    .home {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    .home-image {
+        
+        width: 50%;
+        position: relative;
+        background-color: var(--t);
+        
+    }
+    
+    .home-image img {
+        width: 120%;
+        position: relative;
+        z-index: 2;
+    
+    }
+    .home-over{
+    
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background: var(--t);
+    z-index: -1;
+    }
+    
+    .home-content {
+        width: 50%;
+    }
+    
+    .home-content h1.text {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.2;
+    }
+    
+    .home-content p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+    }
+    
+    .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 5rem;
+    }
+    
+    .btn button {
+        padding: 12px 30px;
+        border: none;
+        border-radius: 30px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .btn button:first-child {
+        background-color: var(--bl);
+        color: white;
+    }
+    
+    .btn button:last-child {
+        background-color: var(--t);
+        color: white;
+    }
+    
+    .btn button:hover {
+        transform: scale(.9);
+    
+    }
+    
+}
